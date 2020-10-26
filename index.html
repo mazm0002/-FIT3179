@@ -6,23 +6,32 @@
   <script src="https://cdn.jsdelivr.net/npm/vega-lite@4"></script>
   <!-- Import vega-embed -->
   <script src="https://cdn.jsdelivr.net/npm/vega-embed@6"></script>
+  
+  <!-- CSS file -->
+  <link rel="stylesheet" type="text/css" href="css/styles.css" media="all">
+  
 </head>
 <body>
 
+<h1>An Example of Multiple Visualisations</h1>
+
 <h2>This is the first visualisation</h2>
 <div id="choropleth_map"></div>
-  
- <h2>This is the second visualisation</h2>
+
+<h2>This is the second visualisation</h2>
 <div id="scatter_plot"></div>
 
 <script type="text/javascript">
-  var spec = "js/happiness_index.vl.json";
-  vegaEmbed('#choropleth_map', spec).then(function(result) {
+  
+  var vis1 = "js/happiness_index.vl.json";
+  
+  vegaEmbed('#choropleth_map', vis1).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
-  var spec2 = "js/pop_gp.vl.json";
-  vegaEmbed('#scatter_plot', spec2).then(function(result) {
+  var vis2 = "js/pop_gp.vl.json";
+  
+  vegaEmbed('#scatter_plot', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
