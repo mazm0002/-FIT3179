@@ -9,11 +9,20 @@
 </head>
 <body>
 
-<div id="vis"></div>
+<h2>This is the first visualisation</h2>
+<div id="choropleth_map"></div>
+  
+ <h2>This is the second visualisation</h2>
+<div id="scatter_plot"></div>
 
 <script type="text/javascript">
   var spec = "js/happiness_index.vl.json";
-  vegaEmbed('#vis', spec).then(function(result) {
+  vegaEmbed('#choropleth_map', spec).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var spec2 = "js/pop_gdp.json";
+  vegaEmbed('#scatter_plot', spec2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
