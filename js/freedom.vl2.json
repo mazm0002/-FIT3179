@@ -1,0 +1,29 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "width": 500,
+  "height": 400,
+  "title": "Happiness score and Freedom",
+  "data": {
+    "url": "https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/Happiness_index_2.csv"
+  },
+  "mark": "circle",
+  "encoding": {
+    "x": {
+      "field": "Freedom",
+      "type": "quantitative",
+      "title": "Freedom Score",
+      "axis": {"tickCount": 7}
+    },
+    "y": {
+      "field": "Happiness Score",
+      "type": "quantitative",
+      "axis": {"tickCount": 6}
+    },
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {"field": "Happiness Score", "type": "quantitative", "format": ","},
+      {"field": "Freedom", "type": "quantitative", "format": ","}
+    ]
+  },
+  "config": {}
+}
