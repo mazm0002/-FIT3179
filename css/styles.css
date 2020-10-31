@@ -20,6 +20,16 @@
 	width: 800px;*/
 }
 
+#chart rect {
+    fill: steelblue;
+}
+
+#chart text {
+    fill: white;
+    font: 10px Helvetica;
+    text-anchor: end;
+}
+
 
 body{
     font-family: 'Source Sans Pro', sans-serif;
