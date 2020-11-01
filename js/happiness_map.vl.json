@@ -2,7 +2,6 @@
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "title": "Happiness Index Scores of Countries",
   "width": "container",
-  "height": 600,
  "params": [
  {
  "name": "Year_selection",
