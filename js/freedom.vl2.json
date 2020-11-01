@@ -6,6 +6,24 @@
   "data": {
     "url": "https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/Happiness_index_2.csv"
   },
+ "params": [
+ {
+ "name": "Year_selection",
+ "value": 2016,
+ "bind": {
+ "input": "range",
+ "min": 2016,
+ "max": 2020,
+ "step": 1,
+ "name": "Year: "
+ }
+ }
+ ],
+
+  "transform": [
+ {"filter": "datum.Year==Year_selection"}
+],
+  
   "mark": "circle",
   "encoding": {
     "x": {
