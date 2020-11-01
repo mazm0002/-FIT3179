@@ -13,7 +13,7 @@
 </head>
 <body>
 
-<h1>Happiness and Wealth of Countries</h1>
+<h1>Gross Domestic Product</h1>
 
 <h2></h2>
 <div id="choropleth_map"></div>
@@ -23,6 +23,12 @@
   
 <h2></h2>
 <div id="scatter_plot2"></div>
+  
+<h2></h2>
+<div id="line_chart"></div>
+  
+<h2></h2>
+<div id="bar_graph"></div>
 
 <script type="text/javascript">
  
@@ -33,7 +39,7 @@
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
   
-  var vis2 = "js/fixed_pop_gdp.vl2.json";
+  var vis2 = "js/fixed_pop_gdp.vl3.json";
   
   vegaEmbed('#scatter_plot', vis2).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
@@ -43,6 +49,18 @@
    var vis3 = "js/freedom.vl2.json";
   
   vegaEmbed('#scatter_plot2', vis3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+   var vis4 = "js/gdp_per_hour.vl.json";
+  
+  vegaEmbed('#line_chart', vis4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+     var vis4 = "js/expenditure.vl1.json";
+  
+  vegaEmbed('#bar_graph', vis4).then(function(result) {
     // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
   }).catch(console.error);
 </script>
