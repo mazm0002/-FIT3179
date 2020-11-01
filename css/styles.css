@@ -20,6 +20,20 @@
 	width: 800px;*/
 }
 
+#line_chart {
+	left: 100px;
+	right: 100px;
+	/*height: 1000px;
+	width: 800px;*/
+}
+
+#bar_graph {
+	left: 100px;
+	right: 100px;
+	/*height: 1000px;
+	width: 800px;*/
+}
+
 #chart rect {
     fill: steelblue;
 }
