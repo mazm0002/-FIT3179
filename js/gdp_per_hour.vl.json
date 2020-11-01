@@ -1,0 +1,40 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "Stock prices of 5 Tech Companies over Time.",
+  "height": 500,
+  "width": 500,
+  "data": {
+    "url": "https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/gdp_hour.csv"
+  },
+  "mark": {"type": "line", "point": true},
+  "transform": [
+    {
+      "filter": "datum.Country=='Norway'|datum.Country=='United States'|datum.Country=='Germany'|datum.Country=='South Korea'|datum.Country=='Japan'"
+    }
+  ],
+  "encoding": {
+    "x": {
+      "timeUnit": "year",
+      "field": "Year",
+      "axis": {"grid": false, "tickCount": 5}
+    },
+    "y": {
+      "field": "GDPperHour",
+      "type": "quantitative",
+      "title": "GDP($) per hour worked",
+      "axis": {"grid": false, "tickCount": 5}
+    },
+    "color": {"field": "Country", "type": "nominal"},
+    "tooltip": [
+      {"field": "Country", "type": "nominal"},
+      {
+        "field": "GDPperHour",
+        "type": "quantitative",
+        "title": "GDP($) per hour worked",
+        "format": ".2f"
+      },
+      {"field": "Year", "type": "temporal", "timeUnit": "year"}
+    ]
+  },
+  "config": {}
+}

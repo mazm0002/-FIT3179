@@ -1,0 +1,44 @@
+{
+  "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
+  "description": "A bar chart with negative values. We can hide the axis domain line, and instead use a conditional grid color to draw a zero baseline.",
+  "height": 500,
+  "width": 500,
+  "params": [
+    {
+      "name": "Country_selection",
+      "bind": {
+        "input": "select",
+        "options": [null, "China", "Russia"],
+        "labels": ["United States"],
+        "name": "Country Selection: "
+      }
+    }
+  ],
+  "transform": [
+    {
+      "filter": "(Country_selection == null && datum.Country == 'United States') || datum.Country == Country_selection "
+    }
+  ],
+  "data": {
+    "url": "https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/Expenditure.csv"
+  },
+  "mark": "bar",
+  "encoding": {
+    "x": {
+      "field": "Expenditure",
+      "type": "nominal",
+      "axis": {
+        "domain": false,
+        "ticks": false,
+        "labelAngle": 0,
+        "labelPadding": 4
+      }
+    },
+    "y": {
+      "field": "Percentage",
+      "type": "quantitative",
+      "axis": {"tickCount": 5, "grid": false}
+    }
+  },
+  "config": {}
+}
