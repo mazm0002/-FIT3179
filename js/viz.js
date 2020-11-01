@@ -1,6 +1,6 @@
 // set the dimensions and margins of the graph
-      const width = 960
-      const height = 500
+      const width = 1000
+      const height = 300
       const margin = { top: 180, bottom: 50, left: 50, right: 50}
 
 // append the svg object to the body of the page
@@ -49,7 +49,7 @@ d3.csv("https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/US%20GDP.cs
         .y(function(d) { return y(d.gdp) })
         )
   const type = d3.annotationCustomType(
-            d3.annotationXYThreshold,
+            d3.annotationXYThreshold, 
             {"note":{
                 "lineType":"none",
                 "orientation": "top",
@@ -57,27 +57,55 @@ d3.csv("https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/US%20GDP.cs
             }
           )
 
-var annotations = [
+var annotations = [ 
   {
             note: { label: "The Great Depression brought on by the bursting of the United States housing bubble.",
                    title:"2007"
                   },
             subject: {
               y1: margin.top,
-              y2: height - margin.bottom
+              y2: height - margin.bottom+100
             },
             y: margin.top,
             data: { x: "01-01-2010"} //position the x based on an x scale
-}
+},
+    {
+            note: { label: "Recession due to the  disruption to global oil supply caused by Iranian Revolution",
+                   title:"Early 1980s"
+                  },
+            subject: {
+              y1: margin.top,
+              y2: height - margin.bottom+160
+            },
+            y: margin.top,
+            data: { x: "01-01-1985"} //position the x based on an x scale
+},
+  
+          {
+            note: { label: "Long expansionary period where incomes and employment rose, while poverty fell sharply.", 
+              title:"1960s",
+              lineType:"none", 
+              // orientation: "leftRight", 
+              "align": "middle" },
+            className: "anomaly",
+            type: d3.annotationCalloutCircle,
+            subject: { radius: 50 },
+            data: { x: "01/01/1968", y: -2},
+            dx: 40,
+            dy:-150
+          }     
+          
+  
+ 
 ]
 const makeAnnotations=d3.annotation().type(type)
             //Gives you access to any data objects in the annotations array
-            .accessors({
+            .accessors({ 
               x: function(d){ return x(new Date(d.x))},
               y: function(d){ return y(d.y) }
             })
             .annotations(annotations)
-            .textWrap(300)
+            .textWrap(200)
 
 d3.select("svg")
     .append("g")
