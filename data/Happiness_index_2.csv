@@ -1,4 +1,4 @@
-Year,Country,Happiness Rank,Happiness Score,Economy (GDP per Capita),Freedom,Health (Life Expectancy)
+Year,Country,Happiness Rank,Happiness Score,GDPperCap),Freedom,Health (Life Expectancy)
 2015,Switzerland,1,7.587,1.39651,0.66557,0.94143
 2015,Iceland,2,7.561,1.30232,0.62877,0.94784
 2015,Denmark,3,7.527,1.32548,0.64938,0.87464
