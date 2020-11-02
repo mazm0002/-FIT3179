@@ -36,7 +36,8 @@
     "y": {
       "field": "Percentage",
       "type": "quantitative",
-      "axis": {"tickCount": 5, "grid": false}
+      "axis": {"tickCount": 5, "grid": false},
+      "title":"Percentage of total GDP"
     },
     "color": {
       "field": "Country",
