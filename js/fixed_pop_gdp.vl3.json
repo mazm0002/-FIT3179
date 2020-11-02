@@ -21,7 +21,8 @@
       "field": "GDPperCap",
       "type": "quantitative",
       "axis": {"tickCount": 5, "grid": false},
-      "scale": {"type": "log", "domain": [100, 100000]}
+      "scale": {"type": "log", "domain": [100, 100000]},
+      "title":"GDP per capita($)"
     }
   },
   "layer": [
@@ -80,7 +81,8 @@
         "tooltip": [
           {"field": "Country", "type": "nominal"},
           {"field": "Population", "type": "quantitative", "format": ","},
-          {"field": "GDPperCap", "type": "quantitative", "format": ",","title":"GDP per Capita($)"}
+          {"field": "GDPperCap", "type": "quantitative", "format": ",","title":"GDP per Capita($)"},
+          {"field": "Area", "type": "quantitative", "format": ",","title":"Area (sq. mi.)"}
         ]
       }
     }
