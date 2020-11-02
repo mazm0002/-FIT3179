@@ -60,7 +60,8 @@ d3.csv("https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/US%20GDP.cs
     .attr("class", "y label")
     .attr("text-anchor", "end")
     .attr("y", 6)
-    .attr("dy", ".3em")
+    .attr("x",-2)
+    .attr("dy", ".75em")
     .attr("transform", "rotate(-90)")
     .text("Percentage change in GDP");
       
