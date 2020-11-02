@@ -1,6 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "title": "Gross Domestic Product (GDP) per Capita of Countries",
+  "title": "Gross Domestic Product (GDP) per Capita of Countries in 2019",
   "width": "container",
 
 
