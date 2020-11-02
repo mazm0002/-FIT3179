@@ -1,42 +1,43 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 500,
-  "height": 400,
-  "title": "Happiness score and Freedom",
+  "width": "container",
+  "title": "GDP per capita and happiness index scores",
   "data": {
-    "url": "https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/Happiness_index_2.csv"
+    "url": "https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/Happiness_index_3.csv"
   },
- "params": [
- {
- "name": "Year_selection",
- "value": 2016,
- "bind": {
- "input": "range",
- "min": 2016,
- "max": 2020,
- "step": 1,
- "name": "Year: "
- }
- }
- ],
+  "params": [
+    {
+      "name": "Year_selection",
+      "value": 2016,
+      "bind": {
+        "input": "range",
+        "min": 2016,
+        "max": 2020,
+        "step": 1,
+        "name": "Year: "
+      }
+    }
 
-  "transform": [
- {"filter": "datum.Year==Year_selection"}
-],
-  
-  "mark": "circle",
+    
+  ],
+  "transform": [{"filter": "datum.Year==Year_selection"},
+  {"filter": "datum.Country=='United States of America'|datum.Country=='Iraq'|datum.Country=='China'|datum.Country=='Russia'|datum.Country=='Japan'|datum.Country=='Afghanistan'|datum.Country=='United Kingdom'|datum.Country=='Brazil'|datum.Country=='Australia'|datum.Country=='Haiti'|datum.Country=='India'|datum.Country=='South Africa'|datum.Country=='South Sudan'|datum.Country=='Madagascar'"}],
+  "mark": {"type": "image", "width": 20, "height": 20},
   "encoding": {
     "x": {
-      "field": "Freedom",
+            "field": "Happiness Score",
       "type": "quantitative",
-      "title": "Freedom Score",
-      "axis": {"tickCount": 7}
+
+      "axis": {"tickCount": 4,"grid": false}
     },
     "y": {
-      "field": "Happiness Score",
+            "field": "GDPperCap",
       "type": "quantitative",
-      "axis": {"tickCount": 6}
+      "title": "GDP per capita ($)",
+
+      "axis": {"tickCount": 4,"grid": false}
     },
+    "url": {"field": "img", "type": "nominal"},
     "tooltip": [
       {"field": "Country", "type": "nominal"},
       {"field": "Happiness Score", "type": "quantitative", "format": ","},
