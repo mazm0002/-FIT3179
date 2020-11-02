@@ -37,6 +37,10 @@
       "field": "Percentage",
       "type": "quantitative",
       "axis": {"tickCount": 5, "grid": false}
+    },
+    "color": {
+      "field": "Country",
+      "scale": {"range": ["#85bb65"]}
     }
   },
   "config": {}
