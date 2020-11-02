@@ -1,7 +1,6 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
-  "width": 500,
-  "height": 400,
+  "width": "container",
   "title": "Population vs GDP of countries",
   "data": {
     "url": "https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/countries%20of%20the%20world.csv"
