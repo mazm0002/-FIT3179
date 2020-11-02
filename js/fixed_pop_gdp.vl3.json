@@ -43,6 +43,7 @@
         "size": {
           "field": "Area",
           "type": "quantitative",
+          "title": "Area (sq. mi.)"
           "scale": {
             "type": "threshold",
             "domain": [10000, 100000, 500000, 1000000, 3000000],
@@ -79,7 +80,7 @@
         "tooltip": [
           {"field": "Country", "type": "nominal"},
           {"field": "Population", "type": "quantitative", "format": ","},
-          {"field": "GDPperCap", "type": "quantitative", "format": ","}
+          {"field": "GDPperCap", "type": "quantitative", "format": ",","title":"GDP per Capita($)"}
         ]
       }
     }
