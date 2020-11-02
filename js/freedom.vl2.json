@@ -12,7 +12,7 @@
       "bind": {
         "input": "range",
         "min": 2016,
-        "max": 2020,
+        "max": 2019,
         "step": 1,
         "name": "Year: "
       }
@@ -41,7 +41,7 @@
     "tooltip": [
       {"field": "Country", "type": "nominal"},
       {"field": "Happiness Score", "type": "quantitative", "format": ","},
-      {"field": "Freedom", "type": "quantitative", "format": ","}
+      {"field": "GDPperCap", "type": "quantitative", "format": ",","title": "GDP per capita ($)"}
     ]
   },
   "config": {}
