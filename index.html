@@ -124,52 +124,11 @@
     
     </div>
     <!-- end pure grid group -->
-  
+   
+       <!-- pure grid group -->
     <div class="pure-g">
-      <div class="pure-u-1-1 small-font">
-        <p>This visualisation is created by <a href="https://github.com/KadekSatriadi" target="_blank">Kadek Satriadi</a>. The datasource is <a href="#"" target="_blank">some data repository online</href>.</p>
-      </div>
-    </div>
-  
-
-  </div> <!-- end page -->
-
-<script type="text/javascript">
- 
-  
-  var vis1 = "js/happiness_map.vl.json";
-  
-  vegaEmbed('#choropleth_map', vis1).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  
-  var vis2 = "js/fixed_pop_gdp.vl3.json";
-  
-  vegaEmbed('#scatter_plot', vis2).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  
-  
-   var vis3 = "js/freedom.vl2.json";
-  
-  vegaEmbed('#scatter_plot2', vis3).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  
-   var vis4 = "js/gdp_per_hour.vl.json";
-  
-  vegaEmbed('#line_chart', vis4).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-  
-     var vis4 = "js/expenditure.vl1.json";
-  
-  vegaEmbed('#bar_graph', vis4).then(function(result) {
-    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
-  }).catch(console.error);
-</script>
-  
- <div id="my_dataviz">
+        <div class="pure-u-2-3">
+          <div id="my_dataviz" class="vis-container" >
 <style>
        body{
         background-color: whitesmoke;
@@ -250,6 +209,55 @@ svg {
 
 <!-- Create a div where the graph will take place -->
 </div>
+        </div>
+    </div>
+    <!-- end pure grid group -->
+  
+    <div class="pure-g">
+      <div class="pure-u-1-1 small-font">
+        <p>This visualisation is created by <a href="https://github.com/KadekSatriadi" target="_blank">Kadek Satriadi</a>. The datasource is <a href="#"" target="_blank">some data repository online</href>.</p>
+      </div>
+    </div>
+  
+
+  </div> <!-- end page -->
+
+<script type="text/javascript">
+ 
+  
+  var vis1 = "js/happiness_map.vl.json";
+  
+  vegaEmbed('#choropleth_map', vis1).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  var vis2 = "js/fixed_pop_gdp.vl3.json";
+  
+  vegaEmbed('#scatter_plot', vis2).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+  
+   var vis3 = "js/freedom.vl2.json";
+  
+  vegaEmbed('#scatter_plot2', vis3).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+   var vis4 = "js/gdp_per_hour.vl.json";
+  
+  vegaEmbed('#line_chart', vis4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+  
+     var vis4 = "js/expenditure.vl1.json";
+  
+  vegaEmbed('#bar_graph', vis4).then(function(result) {
+    // Access the Vega view instance (https://vega.github.io/vega/docs/api/view/) as result.view
+  }).catch(console.error);
+</script>
+  
+ 
 
 </body>
 </html>
