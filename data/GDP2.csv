@@ -17,7 +17,7 @@ Burkina Faso,BFA,1984.884306
 Bangladesh,BGD,4371.754986
 Bulgaria,BGR,21960.36994
 Bahrain,BHR,47303.04851
-"Bahamas, The",BHS,32087.72915
+The Bahamas,BHS,32087.72915
 Bosnia and Herzegovina,BIH,14623.67405
 Belarus,BLR,19994.80408
 Belize,BLZ,8648.0888
@@ -80,7 +80,7 @@ Grenada,GRD,15557.54504
 Guatemala,GTM,8462.374008
 Guyana,GUY,8640.73737
 High income,HIC,50630.96212
-"Hong Kong SAR, China",HKG,64596.56385
+Hong Kong,HKG,64596.56385
 Honduras,HND,5138.752457
 Heavily indebted poor countries (HIPC),HPC,2530.644477
 Croatia,HRV,27579.78083
@@ -175,7 +175,7 @@ Pacific island small states,PSS,6330.82474
 Post-demographic dividend,PST,48705.20745
 Qatar,QAT,126898.4259
 Romania,ROU,28206.35705
-Russian Federation,RUS,27588.12544
+Russia,RUS,27588.12544
 Rwanda,RWA,2251.556388
 South Asia,SAS,7084.490975
 Saudi Arabia,SAU,55335.67959
@@ -218,7 +218,7 @@ Uganda,UGA,2038.073892
 Ukraine,UKR,9249.462135
 Upper middle income,UMC,19028.86276
 Uruguay,URY,23572.17746
-United States,USA,62794.58565
+United States of America,USA,62794.58565
 Uzbekistan,UZB,8556.051512
 St. Vincent and the Grenadines,VCT,12287.9755
 Vietnam,VNM,7447.814334
