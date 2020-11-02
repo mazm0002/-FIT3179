@@ -54,7 +54,16 @@ d3.csv("https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/US%20GDP.cs
     .attr("text-anchor", "end")
     .attr("x", width)
     .attr("y", height - 6)
-    .text("income per capita, inflation-adjusted (dollars)");
+    .text("Year");
+      
+     svg.append("text")
+    .attr("class", "y label")
+    .attr("text-anchor", "end")
+    .attr("y", 6)
+    .attr("dy", ".75em")
+    .attr("transform", "rotate(-90)")
+    .text("Percentage change in GDP");
+      
   const type = d3.annotationCustomType(
             d3.annotationXYThreshold, 
             {"note":{
