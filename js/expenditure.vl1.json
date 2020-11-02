@@ -1,7 +1,7 @@
 {
   "$schema": "https://vega.github.io/schema/vega-lite/v4.json",
   "description": "A bar chart with negative values. We can hide the axis domain line, and instead use a conditional grid color to draw a zero baseline.",
-  "width": "container,
+  "width": "container",
   "params": [
     {
       "name": "Country_selection",
