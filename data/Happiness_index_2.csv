@@ -13,7 +13,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2015,Costa Rica,12,7.226,0.95578,0.63376,0.86027,
 2015,Austria,13,7.2,1.33723,0.62433,0.89042,
 2015,Mexico,14,7.187,1.02054,0.48181,0.81444,
-2015,United States of America,15,7.119,1.39451,0.54604,0.86179,data/us.png
+2015,United States of America,15,7.119,1.39451,0.54604,0.86179,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/us.png
 2015,Brazil,16,6.983,0.98124,0.49049,0.69702,
 2015,Luxembourg,17,6.946,1.56391,0.61583,0.91894,
 2015,Ireland,18,6.94,1.33596,0.61777,0.89533,
@@ -110,7 +110,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2015,Bangladesh,109,4.694,0.39753,0.4082,0.60164,
 2015,Iran,110,4.686,1.0088,0.30033,0.69805,
 2015,Ukraine,111,4.681,0.79907,0.25123,0.6739,
-2015,Iraq,112,4.677,0.98549,0,0.60237,data/iraq.png
+2015,Iraq,112,4.677,0.98549,0,0.60237,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/iraq.png
 2015,South Africa,113,4.642,0.92049,0.33207,0.27688,
 2015,Ghana,114,4.633,0.54558,0.42342,0.40132,
 2015,Zimbabwe,115,4.61,0.271,0.25861,0.33475,
@@ -169,7 +169,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2016,Sweden,10,7.291,1.45181,0.58218,0.83121,
 2016,Israel,11,7.267,1.33766,0.36432,0.84917,
 2016,Austria,12,7.119,1.45038,0.54355,0.80565,
-2016,United States of America,13,7.104,1.50796,0.48163,0.779,data/us.png
+2016,United States of America,13,7.104,1.50796,0.48163,0.779,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/us.png
 2016,Costa Rica,14,7.087,1.06879,0.55225,0.76146,
 2016,Puerto Rico,15,7.039,1.35943,0.46823,0.77758,
 2016,Germany,16,6.994,1.44787,0.53466,0.81487,
@@ -268,7 +268,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2016,Albania,109,4.655,0.9553,0.31866,0.73007,
 2016,Bangladesh,110,4.643,0.54177,0.39778,0.52989,
 2016,Sierra Leone,111,4.635,0.36485,0.30685,0,
-2016,Iraq,112,4.575,1.07474,0.24856,0.51076,data/iraq.png
+2016,Iraq,112,4.575,1.07474,0.24856,0.51076,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/iraq.png
 2016,Namibia,113,4.574,0.93287,0.48614,0.34745,
 2016,Cameroon,114,4.513,0.52497,0.42736,0.12698,
 2016,Ethiopia,115,4.508,0.29283,0.36703,0.34578,
@@ -327,7 +327,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2017,Israel,11,7.212999821,1.375382423,0.4059886038,0.8384039998,
 2017,Costa Rica,12,7.078999996,1.109706283,0.58013165,0.7595092654,
 2017,Austria,13,7.006000042,1.487097263,0.5677661896,0.8153284192,
-2017,United States of America,14,6.993000031,1.546259284,0.5057405233,0.7742866278,data/us.png
+2017,United States of America,14,6.993000031,1.546259284,0.5057405233,0.7742866278,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/us.png
 2017,Ireland,15,6.977000237,1.535706639,0.573110342,0.8097826242,
 2017,Germany,16,6.951000214,1.487923384,0.5625113845,0.7989507318,
 2017,Belgium,17,6.890999794,1.463780761,0.5397707224,0.8180918694,
@@ -430,7 +430,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2017,Myanmar,114,4.545000076,0.3671105504,0.5144920349,0.3975225687,
 2017,Senegal,115,4.534999847,0.4793090224,0.3779222667,0.4093628526,
 2017,Zambia,116,4.513999939,0.6364067793,0.4616034925,0.2578358948,
-2017,Iraq,117,4.497000217,1.102710485,0.2885555327,0.50118047,data/iraq.png
+2017,Iraq,117,4.497000217,1.102710485,0.2885555327,0.50118047,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/iraq.png
 2017,Gabon,118,4.465000153,1.198210239,0.312328577,0.3565785885,
 2017,Ethiopia,119,4.460000038,0.3392338455,0.4088427424,0.3534097075,
 2017,Sri Lanka,120,4.440000057,1.009850144,0.5612132549,0.6251308322,
@@ -486,7 +486,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2018,Germany,15,6.965,1.34,0.586,0.861,
 2018,Belgium,16,6.927,1.324,0.583,0.894,
 2018,Luxembourg,17,6.91,1.576,0.632,0.896,
-2018,United States of America,18,6.886,1.398,0.547,0.819,data/us.png
+2018,United States of America,18,6.886,1.398,0.547,0.819,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/us.png
 2018,Israel,19,6.814,1.301,0.533,0.883,
 2018,United Arab Emirates,20,6.774,2.096,0.284,0.67,
 2018,Czech Republic,21,6.711,1.233,0.543,0.854,
@@ -585,7 +585,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2018,Congo (Brazzaville),114,4.559,0.682,0.514,0.343,
 2018,Bangladesh,115,4.5,0.532,0.58,0.579,
 2018,Sri Lanka,116,4.471,0.918,0.585,0.672,
-2018,Iraq,117,4.456,1.01,0.304,0.536,data/iraq.png
+2018,Iraq,117,4.456,1.01,0.304,0.536,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/iraq.png
 2018,Mali,118,4.447,0.37,0.367,0.152,
 2018,Namibia,119,4.441,0.874,0.519,0.365,
 2018,Cambodia,120,4.433,0.549,0.696,0.457,
@@ -643,7 +643,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2019,Ireland,16,7.021,1.499,0.516,0.999,
 2019,Germany,17,6.985,1.373,0.495,0.987,
 2019,Belgium,18,6.923,1.356,0.473,0.986,
-2019,United States of America,19,6.892,1.433,0.454,0.874,data/us.png
+2019,United States of America,19,6.892,1.433,0.454,0.874,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/us.png
 2019,Czech Republic,20,6.852,1.269,0.457,0.92,
 2019,United Arab Emirates,21,6.825,1.503,0.598,0.825,
 2019,Malta,22,6.726,1.3,0.564,0.999,
@@ -750,7 +750,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2019,Mozambique,123,4.466,0.204,0.494,0.39,
 2019,Tunisia,124,4.461,0.921,0.167,0.815,
 2019,Bangladesh,125,4.456,0.562,0.527,0.723,
-2019,Iraq,126,4.437,1.043,0.241,0.574,data/iraq.png
+2019,Iraq,126,4.437,1.043,0.241,0.574,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/iraq.png
 2019,Congo (Kinshasa),127,4.418,0.094,0.269,0.357,
 2019,Mali,128,4.39,0.385,0.327,0.308,
 2019,Sierra Leone,129,4.374,0.268,0.309,0.242,
@@ -798,7 +798,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2020,Costa Rica,15,7.121399879,9.658156395,0.934738934,71.29985046,
 2020,Ireland,16,7.093699932,11.16097832,0.886982977,72.30078888,
 2020,Germany,17,7.075799942,10.7328186,0.867371082,72.20201874,
-2020,United States of America,18,6.939599991,10.92576885,0.842619538,68.29949951,data/us.png
+2020,United States of America,18,6.939599991,10.92576885,0.842619538,68.29949951,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/us.png
 2020,Czech Republic,19,6.910900116,10.40416336,0.818537354,70.04793549,
 2020,Belgium,20,6.863500118,10.6736393,0.813582063,72.00164795,
 2020,United Arab Emirates,21,6.790800095,11.1099987,0.941345513,67.08278656,
@@ -890,7 +890,7 @@ Year,Country,Happiness Rank,Happiness Score,GDPperCap,Freedom,Health (Life Expec
 2020,Bangladesh,107,4.832799911,8.287063599,0.90062499,64.50306702,
 2020,Gabon,108,4.829299927,9.680537224,0.704829216,59.71533966,
 2020,South Africa,109,4.814099789,9.403370857,0.759330094,56.50601196,
-2020,Iraq,110,4.784800053,9.661095619,0.633182645,59.90354919,data/iraq.png
+2020,Iraq,110,4.784800053,9.661095619,0.633182645,59.90354919,https://raw.githubusercontent.com/mazm0002/FIT3179/main/data/iraq.png
 2020,Lebanon,111,4.771500111,9.3617239,0.551357508,67.10658264,
 2020,Burkina Faso,112,4.768700123,7.46854496,0.665563583,53.88945389,
 2020,Gambia,113,4.750599861,7.321814537,0.733163178,55.0120163,
