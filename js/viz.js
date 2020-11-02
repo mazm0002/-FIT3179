@@ -1,5 +1,5 @@
 // set the dimensions and margins of the graph
-      const width = 1000
+      const width = 500
       const height = 300
       const margin = { top: 180, bottom: 50, left: 50, right: 50}
 
