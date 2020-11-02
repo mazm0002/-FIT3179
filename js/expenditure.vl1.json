@@ -43,5 +43,5 @@
       "scale": {"range": ["#85bb65"]}
     }
   },
-  "config": {}
+  "config": {"legend": {"disable":true}}
 }
